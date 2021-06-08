@@ -1,0 +1,35 @@
+.container-card {
+	margin-bottom: 0.5em;
+}
+
+.container-card .subtitle {
+	margin-bottom: 0.5em;
+}
+
+.list-works p {
+	display: inline;
+}
+
+.headshot {
+	margin-right: 1em;
+}
+
+.content-resume h2 {
+	margin-top: 0 !important;
+}
+
+@media screen {
+	.print-link {
+		display: none;
+	}
+}
+
+@media print {
+	.section-cover-letter {
+		display: none;
+	}
+
+	.section {
+		padding: 0;
+	}
+}
